@@ -1,0 +1,33 @@
+/* Estilos de la barra de búsqueda */
+.search-container {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Roboto Slab', sans-serif;
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search-button:hover {
+    background-color: #555;
+  }
+/* Estilo de subrayado */
+  .highlighted {
+    background-color: yellow;
+    font-weight: bold;
+  }

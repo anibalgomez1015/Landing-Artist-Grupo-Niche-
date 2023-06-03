@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Niche</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <header class="encabezado-header">
+        <div>
+            <h1>Grupo Niche</h1>
+        </div>
+        <div>
+            <nav class="nav-flex-container" class="social">
+                <a href="https://music.apple.com/co/artist/grupo-niche/89543"><img src="./Imágenes/Redes Sociales/Apple Music.png" alt="Apple Music"></a>
+                <a href="https://www.deezer.com/mx/artist/16107"><img src="./Imágenes/Redes Sociales/Deezer.png" alt="Deezer"></a>
+                <a href="https://www.facebook.com/elgruponiche/"><img src="./Imágenes/Redes Sociales/Facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/gruponicheoficial/"><img src="./Imágenes/Redes Sociales/Instagram.png" alt="Instagram"></a>
+                <a href="https://open.spotify.com/artist/1zng9JZpblpk48IPceRWs8"><img src="./Imágenes/Redes Sociales/Spotify.png" alt="Spotify"></a>
+                <a href="https://twitter.com/gruponiche"><img src="./Imágenes/Redes Sociales/Twitter.png" alt="Twitter"></a>
+                <a href="https://www.youtube.com/channel/UCf8Pbsw8fG4BdePN1R2KhmQ"><img src="./Imágenes/Redes Sociales/YouTube.png" alt="YouTube"></a>
+            </nav>
+        </div>
+    </header>
+
+    <br>
+    <!-- Barra de Búsqueda -->
+    <form class="search-container"> <!-- Contenedor de la barra de búsqueda -->
+        <!-- Campo de entrada de texto -->
+        <input type="text" id="searchInput" name="search" placeholder="Buscar..." class="search-input">
+            
+        <!-- Botón de búsqueda -->
+        <button type="button" class="search-button" onclick="searchArticle()">
+            <i class="material-icons">search</i> <!-- Icono de búsqueda -->
+        </button>
+    </form>
+    
+    <p class="article-highlight">El Grupo Niche es una reconocida agrupación de salsa originaria de Colombia, considerada una de las más influyentes y exitosas en el género de la salsa en América Latina.</p>
+
+    <img src="./Imágenes/Grupo_Niche.jpg" width="300" height="300">
+    <br>
+    <h2>Historia</h2>
+        <p>El grupo fue fundado en 1978 en la ciudad de Cali por Jairo Varela, quien se convirtió en el líder y director musical de la agrupación. El nombre "Niche" fue inspirado por el barrio homónimo de Cali donde Jairo Varela creció. Desde sus inicios, el Grupo Niche se destacó por su estilo único de salsa, combinando ritmos tropicales y letras que abordaban temas sociales y románticos.</p>
+        <p>El grupo se formó con músicos talentosos y experimentados de la escena musical de Cali. Desde sus primeros años, el Grupo Niche mostró un estilo distintivo que combinaba ritmos afrocaribeños, jazz y elementos de música colombiana. Esto les permitió destacarse y diferenciarse de otras agrupaciones de salsa de la época.</p>
+        <p>La música del Grupo Niche ha sido reconocida por sus letras que abordan temas sociales, amorosos y cotidianos, así como por su sonido distintivo y sus arreglos musicales sofistcados.</p>
+        <br>
+
+    <h2>Jairo Varela: El Creador</h2>
+        <p>Varela, conocido como "El Maestro Jairo Varela", fue una figura clave en el desarrollo y popularización de la salsa en Colombia y América Latina.</p>
+        <p>Jairo Varela fue el principal compositor de las canciones del Grupo Niche, y su liderazgo y visión artística fueron fundamentales para el éxito de la agrupación. Tras su fallecimiento en 2012, el grupo continuó, con diversos cambios en su alineación, pero manteniendo vivo el legado y el estilo musical que nos caracteriza.</p>
+        <br>
+
+    <h2>Su legado</h2>
+        <p>El Grupo Niche ha experimentado cambios en su alineación a lo largo de los años, pero ha mantenido su esencia musical y su legado como una de las bandas más emblemáticas de la salsa. Hemos realizado giras por diferentes países, participando en festivales y conciertos que han sido recibidos con gran entusiasmo por parte de sus seguidores.</p>
+        <p>El fallecimiento de Jairo Varela en 2012 fue un golpe para la agrupación, pero continuamos su legado bajo la dirección de otros miembros del grupo. A pesar de los cambios, el Grupo Niche sigue activo y se ha convertido en una institución de la música latina, influyendo en generaciones posteriores de artistas y siendo una referencia importante en el mundo de la salsa.</p>
+        <br>
+
+    <h2>Nuestras Canciones</h2>
+        <p>A lo largo de su carrera, el Grupo Niche ha lanzado numerosos éxitos y ha obtenido reconocimiento internacional. Algunas de sus canciones más populares son:</p>
+    <ul>
+        <li>
+            Busca por dentro.
+        </li>
+        <li>
+            Cali Pachanguero.
+        </li>
+        <li>
+            Entrega.
+        </li>
+        <li>
+            Gotas de Lluvia.
+        </li>
+        <li>
+            Hagamos lo que diga el corazón.
+        </li>
+        <li>
+            Sin Sentimiento.
+        </li>
+        <li>
+            Un Alto en el Camino.
+        </li>
+        <li>
+            Una Aventura.
+        </li>
+    </ul> 
+    
+    <!-- Frase destacable del artículo -->
+    <p class="article-highlight">Su música ha sido aclamada por su calidad y su capacidad de hacer bailar a las personas con su ritmo contagioso.</p>
+    <br>
+
+    <!-- Formulario de Contacto -->
+    <section class="contact">
+        <h2>¿Quieres contactarte con el Grupo Niche?</h2>
+        <p>Coloca tus datos y nos estaremos contactando contigo:</p>
+        <form>
+          <input type="text" placeholder="Nombre" required>
+          <input type="email" placeholder="Correo electrónico" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+          <textarea placeholder="Mensaje" required></textarea>
+          <input type="submit" value="Enviar">
+        </form>
+      </section>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <p>&copy; 2023 - Grupo Niche. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Llamar a las funciones -->
+    <script src="java.js"></script>
+
+    </body>
+</html>

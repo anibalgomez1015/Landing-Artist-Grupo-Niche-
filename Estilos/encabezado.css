@@ -1,0 +1,89 @@
+/*Se personaliza la zona del encabezado de la página.*/
+.encabezado-header{
+    display: grid;
+    grid-template-columns: repeat(2, 1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(8, 0, 26);
+    color: white;
+    text-align: center;
+    align-items: stretch;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    color: #fff;
+}
+
+/*Tamaños de Letras*/
+#TamañodeLetra10pt {
+    font-size: 10pt;
+}
+
+#TamañodeLetra20pt {
+    font-size: 20pt;
+}
+
+#TamañodeLetra30pt {
+    font-size: 30pt;
+}
+
+#TamañodeLetra40pt {
+    font-size: 40pt;
+}
+
+#TamañodeLetra50pt {
+    font-size: 50pt;
+}
+
+#TamañodeLetra60pt {
+    font-size: 60pt;
+}
+
+#TamañodeLetra70pt {
+    font-size: 70pt;
+}
+
+#TamañodeLetra80pt {
+    font-size: 80pt;
+}
+
+#TamañodeLetra90pt {
+    font-size: 90pt;
+}
+
+#TamañodeLetra100pt {
+    font-size: 100pt;
+}
+
+/*Nav*/
+.nav-flex-container{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1000px;
+    padding: 1pt;
+    margin: auto;
+}
+
+.social{
+    /*las imágenes utilizadas tienen width de 48px*/
+    width: 48px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+}
+
+.social{
+    /**/
+    top: 50%;
+    height: 205px;
+    /**/
+    margin-top: -100px;
+}
+
+/*Main*/
